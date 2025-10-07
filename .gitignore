@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+
+# Logs
+logs
+log/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+debug.log
+
+# Diagnostic reports
+report.*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+coverage-final.json
+
+# Build outputs / Bundles
+dist/
+build/
+tmp/
+temp/
+.cache/
+.parcel-cache/
+out/
+.next/
+
+# Linters / tooling caches
+.eslintcache
+
+# Environment files (keep examples tracked)
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# Editors / IDEs
+.vscode/
+.vs/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local certs or secrets
+certs/
+*.pem
+*.key
+
+# Misc
+.sass-cache/
+bower_components/
+.history/
+.mono/
