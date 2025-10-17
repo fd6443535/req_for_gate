@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: ['http://localhost:3002', 'http://localhost:3000', 'http://localhost:3001'],
+  origin: ['http://localhost:3002', 'http://localhost:3000', 'http://localhost:3001', 'https://templates-sample-123.vercel.app'],
   credentials: true,
   exposedHeaders: ['x-tenant-id'],
 };
@@ -38,3 +38,4 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
+
